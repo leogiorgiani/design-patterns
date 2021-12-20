@@ -1,2 +1,6 @@
-# desing-patterns
-Repo for desing patterns studies and implementations.
+# Design Patterns
+
+Design Patterns Implementation Examples
+
+Sources: 
+ * https://refactoring.guru/design-patterns/

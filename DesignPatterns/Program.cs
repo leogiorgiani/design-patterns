@@ -3,13 +3,18 @@ using Strategy;
 
 var strategyContext = new StrategyContext();
 
-strategyContext.SetStrategy(StrategyType.Strategy1);
-Console.WriteLine(strategyContext.Excecute());
+var strategies = new int[]{0, 1, 2, 3};
 
+foreach(var strategy in strategies)
+{
+    strategyContext.SetStrategy((StrategyType) strategy);
 
-strategyContext.SetStrategy(StrategyType.Strategy2);
-Console.WriteLine(strategyContext.Excecute());
-
-
-strategyContext.SetStrategy(StrategyType.Strategy3);
-Console.WriteLine(strategyContext.Excecute());
+    try
+    {
+        Console.WriteLine(strategyContext.Excecute());
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }
+}

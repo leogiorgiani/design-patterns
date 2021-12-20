@@ -6,7 +6,7 @@ namespace Strategy
     {
         private IStrategy? _strategy;
 
-        private readonly Dictionary<StrategyType, Type> _strategies = new() {
+        private static readonly Dictionary<StrategyType, Type> _strategies = new() {
             { StrategyType.Strategy1, typeof(Strategy1) },
             { StrategyType.Strategy2, typeof(Strategy2) },
             { StrategyType.Strategy3, typeof(Strategy3) },
@@ -21,7 +21,7 @@ namespace Strategy
         {
             if(_strategy == default)
             {
-                throw new NullReferenceException("No strategy has been set");   
+                throw new InvalidOperationException("No strategy has been set");
             }
 
             return _strategy.Execute();

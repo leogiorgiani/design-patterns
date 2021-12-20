@@ -2,6 +2,6 @@
 {
     internal interface IStrategy
     {
-        public string Execute();
+        string Execute();
     }
 }

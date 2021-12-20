@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns", "DesingPatterns\DesingPatterns.csproj", "{D9FD29F9-29D0-4D91-94A7-2628EE0C0C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{D6C7D2D9-AED9-440F-BBB9-465D094F146F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9FD29F9-29D0-4D91-94A7-2628EE0C0C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FD29F9-29D0-4D91-94A7-2628EE0C0C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FD29F9-29D0-4D91-94A7-2628EE0C0C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FD29F9-29D0-4D91-94A7-2628EE0C0C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C7D2D9-AED9-440F-BBB9-465D094F146F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C7D2D9-AED9-440F-BBB9-465D094F146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C7D2D9-AED9-440F-BBB9-465D094F146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C7D2D9-AED9-440F-BBB9-465D094F146F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39E5DE9F-938D-4251-8458-21CA9698266A}
+	EndGlobalSection
+EndGlobal
